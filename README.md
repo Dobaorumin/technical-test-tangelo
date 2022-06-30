@@ -1,5 +1,5 @@
 # Using Docker.
-Use: docker-compose up -d --build
+Use: docker-compose up -d --build \
 Enjoy :D
 
 # Getting Started with Create React App
