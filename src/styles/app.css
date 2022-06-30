@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: rgb(2,0,36);
+background: linear-gradient(129deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 32%, rgba(0,127,255,1) 100%);     
+}
+
+.main-button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease .2s;
+}
+
+.main-button:hover{
+    scale: 1px;
+}
+
+.content{
+    margin: auto;
+    width: 400px;
+    flex-direction: column;
+}
+
+.prueba{
+    height: 100%;
+    display: flex;
+}
+
+p{
+    line-height: 2;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    .content{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}
